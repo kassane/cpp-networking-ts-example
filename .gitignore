@@ -16,3 +16,6 @@ build/CMakeFiles/3.13.3/*.bin
 build/CMakeFiles/3.13.3/CompilerIdCXX/*.cpp
 build/CMakeFiles/3.13.3/CompilerIdCXX/*.exe
 build/CMakeFiles/Networking-TS.dir/*.cpp.obj
+build/networking-sync.exe
+build/networking-async.exe
+build/networking-stream.exe
