@@ -31,3 +31,4 @@ int main()
 
     std::cout << s.rdbuf();
 std::cout << std::endl;
+}
