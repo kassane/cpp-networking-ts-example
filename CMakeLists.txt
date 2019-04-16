@@ -1,12 +1,15 @@
+cmake_minimum_required(VERSION 3.1)
+
 project(Networking-TS LANGUAGES CXX)
 
-cmake_minimum_required(VERSION 3.1)
+#Define C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(include)
 
 find_package(Threads REQUIRED)
 if(WIN32)
-    message( STATUS "Your OS: ${CMAKE_SYSTEM}")
     find_library(WS2_32_LIBRARY ws2_32 REQUIRED)
 endif()
 
